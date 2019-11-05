@@ -1,0 +1,14 @@
+.number {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numberButton {
+  background-color: #174379;
+}
+
+.numberButton[data="0"] {
+  width: 236px;
+  border-radius: 9999px;
+}
